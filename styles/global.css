@@ -8,7 +8,7 @@
   --brand-color-ligh: #60A5FA;
   --brand-color-dark: #1D4ED8;
   --bg-color: #0F172A;
-  --stroke0color: #1E293B;
+  --stroke-color: #1E293B;
   --text-color-primary: #F1F5F9;
   --text-color-secondary: #CBD5E1;
   --font-family: "Archivo", sans-serif;
@@ -26,6 +26,12 @@ body {
   background-color: var(--bg-color);
 }
 
+.container {
+  max-width: 1280px;
+  padding-inline: 32px;
+  margin-inline: auto;
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -37,4 +43,13 @@ a:hover {
 
 h1, h2, h3 {
   font: inherit
+}
+
+/* utility-first */
+.grid {
+  display: grid;
+}
+
+.grid-flow-col {
+  grid-auto-flow: column;
 }
