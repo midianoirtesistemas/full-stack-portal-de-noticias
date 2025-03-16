@@ -5,7 +5,7 @@
 }
 
 :root {
-  --brand-color-ligh: #60A5FA;
+  --brand-color-light: #60A5FA;
   --brand-color-dark: #1D4ED8;
   --bg-color: #0F172A;
   --stroke-color: #1E293B;
@@ -40,7 +40,8 @@ main {
   grid-template-areas: 
   "featured featured"
   "weekly weekly"
-  "ai aside";
+  "ai aside"
+  "footer footer";
 }
 
 a {
