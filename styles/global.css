@@ -32,6 +32,10 @@ body {
   margin-inline: auto;
 }
 
+main {
+  margin-top: 40px;
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -45,11 +49,6 @@ h1, h2, h3 {
   font: inherit
 }
 
-/* utility-first */
-.grid {
-  display: grid;
-}
-
-.grid-flow-col {
-  grid-auto-flow: column;
+img {
+  max-width: 100%;
 }

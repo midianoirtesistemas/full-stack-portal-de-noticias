@@ -19,7 +19,7 @@
 #menu-secondary {
   padding-block: 14px;
   border: 1px solid var(--stroke-color);
-  justify-content: space-around;
+  justify-content: space-between;
   border-inline: none;
   --ms-border-inline: none;
   --mz-border-inline: none;
